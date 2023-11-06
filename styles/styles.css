@@ -2,7 +2,7 @@
 	--color-black: #002033;
 }
 
-* {
+*:not(svg *) {
 	all: unset;
 	display: revert;
 	list-style: none;
